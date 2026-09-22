@@ -107,8 +107,8 @@ export const galabau: GalabauConfig = {
     "teamSize": "",
     "machines": ""
   },
-  "claim": "Pflaster, Terrasse, Rollrasen. Aus Leimen.",
-  "heroSubline": "Gartengestaltung, Pflasterarbeiten, Mauern und Gartenpflege für Leimen, Heidelberg und den Rhein-Neckar-Raum. Erstberatung und Besichtigung sind kostenlos.",
+  "claim": "Garten- und Landschaftsbau Gashi",
+  "heroSubline": "Xhemo Gashi in Heidelberg",
   "services": [
     {
       "key": "gartenneugestaltung",

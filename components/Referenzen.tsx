@@ -47,24 +47,6 @@ export function Referenzen() {
                   <img src={projekt.afterImage} alt={projekt.alt} loading="lazy" className="h-full w-full object-cover" />
                 </div>
               )}
-
-              <figcaption className="mt-5 flex flex-wrap items-baseline justify-between gap-x-6 gap-y-2">
-                <div>
-                  <h3 className="font-display text-[22px] tracking-tight text-ink md:text-[26px]">{projekt.title}</h3>
-                  <p className="mt-2 max-w-[62ch] text-[14px] leading-relaxed text-ink/65">{projekt.text}</p>
-                </div>
-                <div className="flex items-center gap-3 font-mono text-[11px] uppercase tracking-[0.2em] text-ink/55">
-                  <span>{projekt.ort}</span>
-                  <span className="text-erde-500">&middot;</span>
-                  <span>{projekt.leistung}</span>
-                  {projekt.jahr ? (
-                    <>
-                      <span className="text-erde-500">&middot;</span>
-                      <span>{projekt.jahr}</span>
-                    </>
-                  ) : null}
-                </div>
-              </figcaption>
             </motion.figure>
           ))}
         </div>

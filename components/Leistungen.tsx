@@ -2,7 +2,15 @@
 
 import { motion } from "framer-motion";
 
-import { galabau } from "@/lib/galabau";
+import { galabau, type GalabauServiceKey } from "@/lib/galabau";
+
+// Echte Aufnahmen aus dem Fotopool des Betriebs. Zu Terrasse und Beregnung gibt
+// es keine eigene Aufnahme, diese Karten behalten ihr bisheriges Bild.
+const eigeneFotos: Partial<Record<GalabauServiceKey, string>> = {
+  gartenneugestaltung: "/assets/acquisition/projekte/garten-mit-rasen-kies-und-gabionenwand-01.jpg",
+  pflasterarbeiten: "/assets/acquisition/details/steintreppe-und-pflasterweg-01.jpg",
+  gartenpflege: "/assets/acquisition/projekte/gartenanlage-mit-gestreiftem-rasen-01.jpg"
+};
 
 /**
  * Startseite, Abschnitt "Kurze Leistungsübersicht" aus dem Konzept: jede Karte
@@ -35,7 +43,7 @@ export function Leistungen() {
             >
               <div className="relative aspect-[4/3] overflow-hidden bg-creme">
                 <img
-                  src={service.image}
+                  src={eigeneFotos[service.key] ?? service.image}
                   alt={service.label}
                   loading="lazy"
                   className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04]"
