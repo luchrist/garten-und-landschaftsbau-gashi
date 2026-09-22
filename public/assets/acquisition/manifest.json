@@ -1,0 +1,47 @@
+[
+  {
+    "originalFile": "scraped-01.jpg",
+    "file": "photos/projekte/garten-mit-rasen-kies-und-gabionenwand-01.jpg",
+    "category": "projekt",
+    "quality": "high",
+    "subject": "Garten mit Rasen, Kies und Gabionenwand",
+    "subjectSlug": "garten-mit-rasen-kies-und-gabionenwand",
+    "description": "Ein neu gestalteter Gartenbereich mit frischem Rollrasen, einer Kiesfläche und einer modernen Gabionenwand."
+  },
+  {
+    "originalFile": "api-01.jpg",
+    "file": "photos/projekte/garten-mit-rasen-kies-und-gabionenwand-02.jpg",
+    "category": "projekt",
+    "quality": "high",
+    "subject": "Garten mit Rasen, Kies und Gabionenwand",
+    "subjectSlug": "garten-mit-rasen-kies-und-gabionenwand",
+    "description": "Ein neu angelegter Gartenbereich mit frischem Rasen, einer Kiesfläche und einer Gabionenwand, umgeben von einem Zaun und Beeten."
+  },
+  {
+    "originalFile": "api-02.jpg",
+    "file": "photos/projekte/gartenanlage-mit-gestreiftem-rasen-01.jpg",
+    "category": "projekt",
+    "quality": "high",
+    "subject": "Gartenanlage mit gestreiftem Rasen",
+    "subjectSlug": "gartenanlage-mit-gestreiftem-rasen",
+    "description": "Ein frisch gemähter Rasen mit deutlichen Streifen in einer Gartenanlage, wobei ein Arbeiter an der angrenzenden Fläche tätig ist."
+  },
+  {
+    "originalFile": "api-03.jpg",
+    "file": "photos/details/steintreppe-und-pflasterweg-01.jpg",
+    "category": "detail",
+    "quality": "high",
+    "subject": "Steintreppe und Pflasterweg",
+    "subjectSlug": "steintreppe-und-pflasterweg",
+    "description": "Eine moderne Steintreppe und ein geschwungener Pflasterweg, umgeben von dunklem Ziersplitt."
+  },
+  {
+    "originalFile": "api-08.jpg",
+    "file": "photos/projekte/garten-mit-rasen-kiesflache-und-gabionenwand-01.jpg",
+    "category": "projekt",
+    "quality": "high",
+    "subject": "Garten mit Rasen, Kiesfläche und Gabionenwand",
+    "subjectSlug": "garten-mit-rasen-kiesflache-und-gabionenwand",
+    "description": "Ein neu gestalteter Gartenbereich mit frischem Rollrasen, einer Kiesfläche und einer modernen Gabionenwand als Abgrenzung."
+  }
+]
